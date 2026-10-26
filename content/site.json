@@ -47,20 +47,16 @@
       {
         "label": "Years in data & AI",
         "value": 3,
-        "prefix": "",
         "suffix": "+"
       },
       {
         "label": "Greenwich Mean Time",
         "value": 7,
-        "prefix": "+",
-        "suffix": ""
+        "prefix": "+"
       },
       {
         "label": "Certifications",
-        "value": 9,
-        "prefix": "",
-        "suffix": ""
+        "value": 9
       }
     ]
   },
@@ -102,6 +98,10 @@
       {
         "label": "LinkedIn",
         "href": "https://www.linkedin.com/in/tatas-handharu"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/Dharu_han"
       }
     ]
   },
