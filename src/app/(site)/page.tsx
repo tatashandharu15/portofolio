@@ -8,6 +8,7 @@ import { IndentText } from "@/components/IndentText";
 import { GlitchCounter } from "@/components/GlitchCounter";
 import { ArrowElbowDownRight } from "@/components/Icons";
 import { Skills } from "@/components/Skills";
+import { skillGroups, skillsIntro } from "@/content/skills";
 
 export default function Home() {
   const { hero, work, about } = site;
@@ -138,7 +139,7 @@ export default function Home() {
       </section>
 
       {/* ── Skills ── */}
-      <Skills />
+      <Skills intro={skillsIntro} groups={skillGroups} />
       <div id="contact" className="contact-anchor" />
     </>
   );

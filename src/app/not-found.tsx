@@ -3,10 +3,12 @@ import { site } from "@/content/site";
 import { GridLines } from "@/components/GridLines";
 import { FerroPattern } from "@/components/FerroPattern";
 import { ArrowElbowDownRight } from "@/components/Icons";
+import { SiteShell } from "@/components/SiteShell";
 
 export default function NotFound() {
   const n = site.notFound;
   return (
+    <SiteShell>
     <section className="nf px">
       <GridLines />
       <div className="grid12 nf-row">
@@ -26,5 +28,6 @@ export default function NotFound() {
         </div>
       </div>
     </section>
+    </SiteShell>
   );
 }

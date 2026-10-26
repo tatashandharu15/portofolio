@@ -10,10 +10,13 @@
   },
   "dependencies": {
     "@carrot-kpi/switzer-font": "^0.1.0",
+    "@keystatic/core": "^0.6.9",
+    "@keystatic/next": "^5.0.5",
     "geist": "^1.8.2",
     "next": "16.4.3",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "simple-icons": "^16.36.0"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",

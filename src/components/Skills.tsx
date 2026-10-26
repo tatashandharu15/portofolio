@@ -2,7 +2,7 @@
 // Skills — ikon tools & bahasa: marquee berjalan, garis ikon "digambar" saat masuk layar,
 // nama di-scramble ala glitch, hover memberi efek RGB-split seperti slider proyek.
 import { useCallback, useEffect, useRef, useState, type CSSProperties } from "react";
-import { skillGroups, skillsIntro, type Skill } from "@/content/skills";
+import type { Skill, SkillGroup } from "@/content/skills";
 import { IndentText } from "./IndentText";
 
 const CHARS = "#%&/<>_=+*01ABCDEFXYZ";
@@ -90,12 +90,12 @@ function Group({ id, title, items }: { id: string; title: string; items: Skill[]
   );
 }
 
-export function Skills() {
-  const all = skillGroups.flatMap((g) => g.items);
+export function Skills({ intro, groups }: { intro: { label: string; statement: string }; groups: SkillGroup[] }) {
+  const all = groups.flatMap((g) => g.items);
   const row = (
     <ul className="skills-marquee__row">
-      {all.map((s) => (
-        <li key={s.name} className="skills-marquee__item">
+      {all.map((s, i) => (
+        <li key={`${s.name}-${i}`} className="skills-marquee__item">
           <Icon path={s.path} className="skills-marquee__icon" />
           <span className="t-mono">{s.name}</span>
         </li>
@@ -105,9 +105,9 @@ export function Skills() {
   return (
     <section id="skills" className="skills" data-name="Skills">
       <div className="grid12 px skills-head">
-        <p className="t-mono skills-head__label">{skillsIntro.label}</p>
+        <p className="t-mono skills-head__label">{intro.label}</p>
         <div className="skills-head__text">
-          <IndentText text={skillsIntro.statement} as="h2" className="statement" dimOpacity={0.2} />
+          <IndentText text={intro.statement} as="h2" className="statement" dimOpacity={0.2} />
         </div>
       </div>
       <div className="skills-marquee" aria-hidden="true">
@@ -117,7 +117,7 @@ export function Skills() {
         </div>
       </div>
       <div className="px skills-groups">
-        {skillGroups.map((g) => <Group key={g.id} {...g} />)}
+        {groups.map((g) => <Group key={g.id} {...g} />)}
       </div>
     </section>
   );

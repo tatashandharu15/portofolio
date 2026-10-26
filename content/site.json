@@ -1,0 +1,114 @@
+{
+  "name": "Tatas Handharu",
+  "title": "Tatas Handharu — AI Systems Engineer",
+  "description": "Portfolio of Tatas Handharu Sworo, Tech Lead AI Systems based in Jakarta, building AI platforms for cyber threat intelligence, social media monitoring and blockchain analytics.",
+  "email": "tatas.handharu@gmail.com",
+  "cvUrl": "https://www.linkedin.com/in/tatas-handharu",
+  "clock": {
+    "prefix": "TATASHANDHARU_JKT",
+    "timeZone": "Asia/Jakarta",
+    "hour12": true
+  },
+  "hero": {
+    "name": "Tatas\nHandharu",
+    "roleLines": [
+      "Tech Lead AI Systems",
+      "Based in Jakarta"
+    ],
+    "portfolioLabel": "Portfolio_20/26",
+    "scrollHint": "[Scroll to explore]",
+    "socials": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/tatashandharu15"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/tatas-handharu"
+      },
+      {
+        "label": "Email",
+        "href": "mailto:tatas.handharu@gmail.com"
+      }
+    ]
+  },
+  "work": {
+    "label": "(Selected work)",
+    "range": "AI Systems_2024—2026",
+    "dragHint": "[Drag to explore]"
+  },
+  "about": {
+    "label": "(About)",
+    "statement": "I build AI systems that turn messy, fast-moving data into intelligence people can act on. My work sits where machine learning, cybersecurity and backend engineering meet — platforms that read the web, flag what matters and keep running in production.",
+    "practice": "My practice spans LLM and RAG applications, AI agents, data pipelines and FastAPI backends. I take models from research to containerised production, with monitoring and observability built in.",
+    "cvLabel": "Full profile on LinkedIn",
+    "offDuty": "Before industry I was an assistant lecturer at University of Technology Yogyakarta, running Big Data and Machine Learning sessions. In my spare time I explore Web3 and blockchain tooling.",
+    "stats": [
+      {
+        "label": "Years in data & AI",
+        "value": 3,
+        "prefix": "",
+        "suffix": "+"
+      },
+      {
+        "label": "Greenwich Mean Time",
+        "value": 7,
+        "prefix": "+",
+        "suffix": ""
+      },
+      {
+        "label": "Certifications",
+        "value": 9,
+        "prefix": "",
+        "suffix": ""
+      }
+    ]
+  },
+  "footer": {
+    "mediaType": "video",
+    "mediaSrc": "/media/contact.mp4",
+    "cta": "Get in touch",
+    "linksA": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/tatashandharu15"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/tatas-handharu"
+      }
+    ],
+    "linksB": [
+      {
+        "label": "Email",
+        "href": "mailto:tatas.handharu@gmail.com"
+      },
+      {
+        "label": "Contact form",
+        "href": "/contact"
+      }
+    ],
+    "creditName": "Tatas Handharu",
+    "builtWith": "Next.js + WebGL",
+    "copyright": "©2026_All rights reserved"
+  },
+  "menu": {
+    "brand": "Tatas Handharu",
+    "socials": [
+      {
+        "label": "GitHub",
+        "href": "https://github.com/tatashandharu15"
+      },
+      {
+        "label": "LinkedIn",
+        "href": "https://www.linkedin.com/in/tatas-handharu"
+      }
+    ]
+  },
+  "notFound": {
+    "label": "(Error 404)",
+    "title": "Signal lost",
+    "text": "This page has moved, or it never existed. Let’s get you back on track.",
+    "back": "Back to index"
+  }
+}

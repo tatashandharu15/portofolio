@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import { site } from "@/content/site";
-import { Nav } from "@/components/Nav";
-import { Footer } from "@/components/Footer";
 import "./globals.css";
 
 const switzer = localFont({
@@ -36,14 +34,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${switzer.variable} ${geistMono.variable}`}>
-      <body>
-        <div className="site">
-          <Nav />
-          <main className="site-main">{children}</main>
-          <div className="grow" />
-          <Footer />
-        </div>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

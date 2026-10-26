@@ -1,0 +1,146 @@
+{
+  "items": [
+    {
+      "title": "Cyber Web Intel",
+      "slug": "cyber-web-intelligence",
+      "category": "Threat Intelligence",
+      "year": "2025—26",
+      "context": "Siberindo",
+      "summary": "An AI-powered platform that monitors the dark web and the surface web for cyber threats, with automated analysis, dashboards and alerting for monitoring teams.",
+      "cover": "/media/projects/items/0/cover.png",
+      "body": [
+        {
+          "heading": "What I built",
+          "paragraphs": [
+            "I developed the platform’s AI-powered threat monitoring and integrated web intelligence collection with automated analysis across dark-web and surface-web sources."
+          ]
+        },
+        {
+          "heading": "Operations",
+          "paragraphs": [
+            "I designed the dashboards and alerting workflows that cyber monitoring operations run on."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Social Monitor",
+      "slug": "social-media-monitoring",
+      "category": "Social Intelligence",
+      "year": "2025—26",
+      "context": "Siberindo · APAC",
+      "summary": "A large-scale platform that collects, processes and analyses digital conversations across multiple social platforms for intelligence reporting in the APAC region.",
+      "cover": "/media/projects/items/1/cover.png",
+      "body": [
+        {
+          "heading": "Signals from noise",
+          "paragraphs": [
+            "Sentiment analysis, trend detection, topic clustering and entity extraction run on incoming conversations using AI and NLP techniques."
+          ]
+        },
+        {
+          "heading": "Pipelines and reporting",
+          "paragraphs": [
+            "I built scalable ingestion pipelines for structured and unstructured social media data, plus automated monitoring workflows and real-time dashboards for intelligence reporting."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "AI Ticketing",
+      "slug": "ai-ticketing",
+      "category": "Enterprise Platform",
+      "year": "2025—26",
+      "context": "Siberindo",
+      "summary": "An enterprise-grade ticket management platform with intelligent ticket classification and workflow automation.",
+      "cover": "/media/projects/items/2/cover.png",
+      "body": [
+        {
+          "heading": "Classification and automation",
+          "paragraphs": [
+            "I designed and developed the platform, including intelligent ticket classification and workflow automation features."
+          ]
+        },
+        {
+          "heading": "Security and operations",
+          "paragraphs": [
+            "Secure backend APIs with role-based access control, reporting and operational monitoring dashboards, and a containerised deployment architecture using Docker."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Wallet Intel",
+      "slug": "wallet-intelligence",
+      "category": "Blockchain Analytics",
+      "year": "2025—26",
+      "context": "Siberindo",
+      "summary": "Blockchain intelligence work covering cryptocurrency wallet analysis, transaction tracing and risk assessment.",
+      "cover": "/media/projects/items/3/cover.png",
+      "body": [
+        {
+          "heading": "Following the money",
+          "paragraphs": [
+            "I conducted cryptocurrency wallet analysis and transaction tracing."
+          ]
+        },
+        {
+          "heading": "Tooling",
+          "paragraphs": [
+            "I built tools for blockchain monitoring and risk assessment."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Lead Engine",
+      "slug": "lead-management",
+      "category": "AI Product",
+      "year": "2026",
+      "context": "Personal project",
+      "summary": "An AI-assisted mini lead management system, built twice — Python with FastAPI and Node.js with TypeScript and Fastify — with verified feature parity.",
+      "cover": "/media/projects/items/4/cover.png",
+      "linkLabel": "View on GitHub",
+      "linkHref": "https://github.com/tatashandharu15/ai-assisted-lead-management",
+      "body": [
+        {
+          "heading": "Two stacks, one contract",
+          "paragraphs": [
+            "Both implementations share one feature set and are checked against 61 automated compliance checks, with 72 of 72 tests passing."
+          ]
+        },
+        {
+          "heading": "AI and data quality",
+          "paragraphs": [
+            "GPT-4o-mini assists the lead workflow, a two-stage blocking step removes duplicate leads, and lead sources are extracted with a three-tier fallback."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "IDX Forecast",
+      "slug": "idx-lstm",
+      "category": "Research",
+      "year": "2024",
+      "context": "Published in JCSTS",
+      "summary": "Research on analysing and predicting Indonesia Stock Exchange share prices with Long Short-Term Memory networks, published in the Journal of Computer Science and Technology Studies.",
+      "cover": "/media/projects/items/5/cover.png",
+      "linkLabel": "View on GitHub",
+      "linkHref": "https://github.com/tatashandharu15/Analysis_and_Prediction_of_Indonesia_Stock_Exchange-IDX-_Stock_Prices",
+      "body": [
+        {
+          "heading": "The study",
+          "paragraphs": [
+            "Starting from my capstone on BBRI share prices, I compared machine learning models on IDX stocks, then implemented and validated an LSTM model for price analysis and prediction."
+          ]
+        },
+        {
+          "heading": "Where it went",
+          "paragraphs": [
+            "The work became my final project and a paper in Al-Kindi’s JCSTS in June 2024. A year earlier, at SENOVTIK 2023, I presented a comparison of KNN, linear regression and SVM for price prediction."
+          ]
+        }
+      ]
+    }
+  ]
+}

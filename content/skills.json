@@ -1,0 +1,234 @@
+{
+  "intro": {
+    "label": "(Skills)",
+    "statement": "The languages, frameworks and tools I use to ship AI systems — from notebook to production, off-chain and on-chain."
+  },
+  "groups": [
+    {
+      "title": "Languages",
+      "items": [
+        {
+          "name": "Python",
+          "icon": "python"
+        },
+        {
+          "name": "Go",
+          "icon": "go"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "typescript"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "javascript"
+        },
+        {
+          "name": "SQL",
+          "icon": "custom:sql"
+        }
+      ]
+    },
+    {
+      "title": "AI & ML",
+      "items": [
+        {
+          "name": "TensorFlow",
+          "icon": "tensorflow"
+        },
+        {
+          "name": "Keras",
+          "icon": "keras"
+        },
+        {
+          "name": "scikit-learn",
+          "icon": "scikitlearn"
+        },
+        {
+          "name": "pandas",
+          "icon": "pandas"
+        },
+        {
+          "name": "NumPy",
+          "icon": "numpy"
+        },
+        {
+          "name": "OpenAI GPT",
+          "icon": "custom:gpt"
+        },
+        {
+          "name": "Gemini",
+          "icon": "googlegemini"
+        },
+        {
+          "name": "LangChain",
+          "icon": "langchain"
+        }
+      ]
+    },
+    {
+      "title": "Software Engineering",
+      "items": [
+        {
+          "name": "Next.js",
+          "icon": "nextdotjs"
+        },
+        {
+          "name": "React",
+          "icon": "react"
+        },
+        {
+          "name": "Node.js",
+          "icon": "nodedotjs"
+        },
+        {
+          "name": "Express",
+          "icon": "express"
+        },
+        {
+          "name": "FastAPI",
+          "icon": "fastapi"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "tailwindcss"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "postgresql"
+        },
+        {
+          "name": "Redis",
+          "icon": "redis"
+        }
+      ]
+    },
+    {
+      "title": "Blockchain & Web3",
+      "items": [
+        {
+          "name": "Solidity",
+          "icon": "solidity"
+        },
+        {
+          "name": "Ethereum",
+          "icon": "ethereum"
+        },
+        {
+          "name": "Bitcoin",
+          "icon": "bitcoin"
+        },
+        {
+          "name": "Polygon",
+          "icon": "polygon"
+        },
+        {
+          "name": "Ethers.js",
+          "icon": "ethers"
+        },
+        {
+          "name": "Web3.js",
+          "icon": "web3dotjs"
+        },
+        {
+          "name": "OpenZeppelin",
+          "icon": "openzeppelin"
+        },
+        {
+          "name": "Chainlink",
+          "icon": "chainlink"
+        },
+        {
+          "name": "IPFS",
+          "icon": "ipfs"
+        }
+      ]
+    },
+    {
+      "title": "DevOps & Cloud",
+      "items": [
+        {
+          "name": "Docker",
+          "icon": "docker"
+        },
+        {
+          "name": "Kubernetes",
+          "icon": "kubernetes"
+        },
+        {
+          "name": "GitHub Actions",
+          "icon": "githubactions"
+        },
+        {
+          "name": "Terraform",
+          "icon": "terraform"
+        },
+        {
+          "name": "Nginx",
+          "icon": "nginx"
+        },
+        {
+          "name": "Grafana",
+          "icon": "grafana"
+        },
+        {
+          "name": "Prometheus",
+          "icon": "prometheus"
+        },
+        {
+          "name": "Vercel",
+          "icon": "vercel"
+        },
+        {
+          "name": "Linux",
+          "icon": "linux"
+        },
+        {
+          "name": "Git",
+          "icon": "git"
+        }
+      ]
+    },
+    {
+      "title": "Data & Tools",
+      "items": [
+        {
+          "name": "Streamlit",
+          "icon": "streamlit"
+        },
+        {
+          "name": "Looker Studio",
+          "icon": "looker"
+        },
+        {
+          "name": "Tableau",
+          "icon": "custom:chart"
+        },
+        {
+          "name": "Pentaho",
+          "icon": "custom:flow"
+        },
+        {
+          "name": "RapidMiner",
+          "icon": "custom:nodes"
+        },
+        {
+          "name": "Jupyter",
+          "icon": "jupyter"
+        },
+        {
+          "name": "Google Colab",
+          "icon": "googlecolab"
+        },
+        {
+          "name": "VS Code",
+          "icon": "custom:code"
+        },
+        {
+          "name": "Spreadsheets",
+          "icon": "googlesheets"
+        }
+      ]
+    }
+  ]
+}
