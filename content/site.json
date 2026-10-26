@@ -29,6 +29,10 @@
       {
         "label": "Email",
         "href": "mailto:tatas.handharu@gmail.com"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/Dharu_han"
       }
     ]
   },
@@ -72,6 +76,10 @@
       {
         "label": "LinkedIn",
         "href": "https://www.linkedin.com/in/tatas-handharu"
+      },
+      {
+        "label": "X",
+        "href": "https://x.com/Dharu_han"
       }
     ],
     "linksB": [
@@ -86,7 +94,7 @@
     ],
     "creditName": "Tatas Handharu",
     "builtWith": "Next.js + WebGL",
-    "copyright": "©2026_All rights reserved"
+    "copyright": "©2026_Tatas Handharu"
   },
   "menu": {
     "brand": "Tatas Handharu",
