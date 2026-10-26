@@ -406,7 +406,7 @@ img, video, canvas { display: block; }
   border-top: 1px solid #f4f3ef1f; border-bottom: 1px solid #f4f3ef1f; padding: 22px 0; overflow: hidden;
   mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
 }
-.skills-marquee__track { display: flex; width: max-content; animation: skills-marquee 60s linear infinite; }
+.skills-marquee__track { display: flex; width: max-content; animation: skills-marquee 140s linear infinite; }
 .skills-marquee:hover .skills-marquee__track { animation-play-state: paused; }
 .skills-marquee__row { display: flex; list-style: none; margin: 0; padding: 0; }
 .skills-marquee__item { display: flex; align-items: center; gap: 12px; padding: 0 28px; white-space: nowrap; color: var(--on-dark-muted); transition: color .2s ease; }
