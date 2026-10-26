@@ -24,7 +24,7 @@ export function Footer() {
         as="h2"
         className="footer-cta"
         color="#0a0a0a"
-        href={`mailto:${site.email}`}
+        href="/contact"
         fit
         fullWidth
         trigger="inView"

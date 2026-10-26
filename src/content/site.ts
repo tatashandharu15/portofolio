@@ -76,7 +76,7 @@ export const site = {
       { label: "Index", href: "/#index" },
       { label: "Work", href: "/#work" },
       { label: "About", href: "/#about" },
-      { label: "Contact", href: "/#contact" },
+      { label: "Contact", href: "/contact" },
       { label: "404", href: "/404" },
     ],
     socials: [

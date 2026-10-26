@@ -10,7 +10,7 @@ export function Nav() {
         <LiveClock prefix={site.clock.prefix} timeZone={site.clock.timeZone} hour12={site.clock.hour12} />
       </Link>
       <div className="nav-links">
-        <Link href="/#contact" className="nav-talk t-mono">Lets talk</Link>
+        <Link href="/contact" className="nav-talk t-mono">Lets talk</Link>
         <GlitchMenu brand={site.menu.brand} items={site.menu.items} email={site.email} socials={site.menu.socials} />
       </div>
     </nav>
