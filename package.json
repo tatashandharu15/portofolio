@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@carrot-kpi/switzer-font": "^0.1.0",
+    "@vercel/analytics": "^2.0.1",
     "geist": "^1.8.2",
     "next": "16.4.3",
     "react": "19.3.0",
