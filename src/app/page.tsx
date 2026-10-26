@@ -7,6 +7,7 @@ import { ProjectSlider } from "@/components/ProjectSlider";
 import { IndentText } from "@/components/IndentText";
 import { GlitchCounter } from "@/components/GlitchCounter";
 import { ArrowElbowDownRight } from "@/components/Icons";
+import { Skills } from "@/components/Skills";
 
 export default function Home() {
   const { hero, work, about } = site;
@@ -135,6 +136,9 @@ export default function Home() {
           ))}
         </div>
       </section>
+
+      {/* ── Skills ── */}
+      <Skills />
       <div id="contact" className="contact-anchor" />
     </>
   );

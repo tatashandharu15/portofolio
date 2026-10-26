@@ -15,7 +15,6 @@ export type Project = {
 
 const GITHUB = "https://github.com/tatashandharu15";
 const LINKEDIN = "https://www.linkedin.com/in/tatas-handharu";
-const PORTFOLIO_V1 = "https://tatashandharu15.github.io";
 const EMAIL = "tatas.handharu@gmail.com";
 
 export const site = {
@@ -63,9 +62,11 @@ export const site = {
     linksA: [
       { label: "GitHub", href: GITHUB },
       { label: "LinkedIn", href: LINKEDIN },
-      { label: "Email", href: `mailto:${EMAIL}` },
     ],
-    linksB: [{ label: "Portfolio v1", href: PORTFOLIO_V1 }],
+    linksB: [
+      { label: "Email", href: `mailto:${EMAIL}` },
+      { label: "Contact form", href: "/contact" },
+    ],
     creditName: "Tatas Handharu",
     builtWith: "Next.js + WebGL",
     copyright: "©2026_All rights reserved",
@@ -76,13 +77,13 @@ export const site = {
       { label: "Index", href: "/#index" },
       { label: "Work", href: "/#work" },
       { label: "About", href: "/#about" },
+      { label: "Skills", href: "/#skills" },
       { label: "Contact", href: "/contact" },
       { label: "404", href: "/404" },
     ],
     socials: [
       { label: "GitHub", href: GITHUB },
       { label: "LinkedIn", href: LINKEDIN },
-      { label: "Portfolio v1", href: PORTFOLIO_V1 },
     ],
   },
   notFound: {
