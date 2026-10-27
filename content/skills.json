@@ -186,10 +186,6 @@
         {
           "name": "Git",
           "icon": "git"
-        },
-        {
-          "name": "AWS",
-          "icon": "AWS"
         }
       ]
     },
