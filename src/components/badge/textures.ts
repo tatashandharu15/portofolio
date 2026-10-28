@@ -45,19 +45,6 @@ function cover(ctx: CanvasRenderingContext2D, img: HTMLImageElement, w: number, 
   ctx.drawImage(img, (w - dw) / 2, (h - dh) / 2.4, dw, dh);
 }
 
-function slot(ctx: CanvasRenderingContext2D, color: string) {
-  // lubang tempat klip, seperti kartu ID sungguhan
-  ctx.save();
-  ctx.globalCompositeOperation = "destination-out";
-  roundRect(ctx, PX_W / 2 - 70, 34, 140, 26, 13);
-  ctx.fill();
-  ctx.restore();
-  ctx.strokeStyle = color;
-  ctx.lineWidth = 2;
-  roundRect(ctx, PX_W / 2 - 70, 34, 140, 26, 13);
-  ctx.stroke();
-}
-
 export async function drawCardFaces(data: BadgeData) {
   await document.fonts?.ready;
   const sans = fontVar("--font-switzer", "Helvetica, Arial, sans-serif");
@@ -73,8 +60,6 @@ export async function drawCardFaces(data: BadgeData) {
   f.width = PX_W;
   f.height = PX_H;
   const c = f.getContext("2d")!;
-  roundRect(c, 0, 0, PX_W, PX_H, 56);
-  c.clip();
   c.fillStyle = "#151515";
   c.fillRect(0, 0, PX_W, PX_H);
   if (photo) {
@@ -98,12 +83,12 @@ export async function drawCardFaces(data: BadgeData) {
   c.fillRect(0, 0, PX_W, PX_H * 0.22);
 
   const pad = 72;
-  if (logoDark) c.drawImage(logoDark, pad, 104, 96, 96);
+  if (logoDark) c.drawImage(logoDark, pad, 150, 96, 96);
   c.fillStyle = "rgba(244,243,239,0.7)";
   c.font = `400 34px ${mono}`;
   c.textAlign = "right";
   c.textBaseline = "top";
-  c.fillText("ID_01", PX_W - pad, 112);
+  c.fillText("ID_01", PX_W - pad, 158);
   c.textAlign = "left";
 
   const lines = data.name.split(/\n/);
@@ -122,15 +107,12 @@ export async function drawCardFaces(data: BadgeData) {
   c.textAlign = "right";
   c.fillText(String(new Date().getFullYear()), PX_W - pad, PX_H - 92);
   c.textAlign = "left";
-  slot(c, "rgba(244,243,239,0.25)");
 
   // ── Belakang ──
   const b = document.createElement("canvas");
   b.width = PX_W;
   b.height = PX_H;
   const d = b.getContext("2d")!;
-  roundRect(d, 0, 0, PX_W, PX_H, 56);
-  d.clip();
   d.fillStyle = "#f4f3ef";
   d.fillRect(0, 0, PX_W, PX_H);
   d.strokeStyle = "rgba(10,10,10,0.08)";
@@ -149,7 +131,6 @@ export async function drawCardFaces(data: BadgeData) {
   d.fillStyle = "#6e6d69";
   d.font = `400 26px ${mono}`;
   d.fillText(data.backUrl, PX_W / 2, PX_H - 96);
-  slot(d, "rgba(10,10,10,0.2)");
 
   return { front: f, back: b };
 }

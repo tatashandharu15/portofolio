@@ -483,5 +483,13 @@ img, video, canvas { display: block; }
 }
 
 /* ── Hero badge (lanyard 3D) ── */
-.hero-badge-holder, .hero-badge { position: absolute; inset: 0; z-index: 5; pointer-events: none; }
-.hero-badge canvas { pointer-events: none !important; }
+/* canvas di bawah teks hero (z 0); teks & link tetap bisa diklik, area kosong menangkap tarikan kartu */
+.hero-badge { position: absolute; inset: 0; z-index: 0; }
+.hero-badge canvas { display: block; width: 100%; height: 100%; }
+.hero-intro, .hero-row, .hero-art, .hero-footer { pointer-events: none; }
+.hero-block, .hero-footer a { pointer-events: auto; }
+/* urutan lapisan hero: grid → ferrofluid → kartu ID → teks & link */
+.hero-intro { z-index: auto; }
+.hero-art { z-index: 1; }
+.hero-badge { z-index: 2; }
+.hero-block, .hero-footer { z-index: 4; }
