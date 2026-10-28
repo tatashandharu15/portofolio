@@ -24,6 +24,7 @@ export const metadata: Metadata = {
   description: site.description,
   icons: {
     icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
       { url: "/favicon-light.png", media: "(prefers-color-scheme: light)" },
       { url: "/favicon-dark.png", media: "(prefers-color-scheme: dark)" },
     ],
