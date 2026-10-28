@@ -118,5 +118,13 @@
     "title": "Signal lost",
     "text": "This page has moved, or it never existed. Let’s get you back on track.",
     "back": "Back to index"
+  },
+  "badge": {
+    "photo": null,
+    "name": "Tatas\nHandharu",
+    "role": "Tech Lead AI Systems",
+    "idLabel": "TATASHANDHARU_JKT",
+    "backLabel": "Portfolio_20/26",
+    "backUrl": "tatas.anxentlab.my.id"
   }
 }

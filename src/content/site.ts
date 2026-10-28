@@ -58,6 +58,14 @@ export const site = {
     socials: d.menu.socials,
   },
   notFound: d.notFound,
+  badge: {
+    photo: (d.badge?.photo as string | null | undefined) || undefined,
+    name: d.badge?.name ?? d.name,
+    role: d.badge?.role ?? "",
+    idLabel: d.badge?.idLabel ?? "",
+    backLabel: d.badge?.backLabel ?? "",
+    backUrl: d.badge?.backUrl ?? "",
+  },
 };
 
 type RawProject = (typeof projectsData.items)[number] & { detail?: string | null };

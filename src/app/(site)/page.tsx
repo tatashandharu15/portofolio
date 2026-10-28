@@ -8,6 +8,7 @@ import { IndentText } from "@/components/IndentText";
 import { GlitchCounter } from "@/components/GlitchCounter";
 import { ArrowElbowDownRight } from "@/components/Icons";
 import { Skills } from "@/components/Skills";
+import { HeroBadge } from "@/components/badge/HeroBadge";
 import { skillGroups, skillsIntro } from "@/content/skills";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       {/* ── Hero ── */}
       <section id="index" className="hero">
         <GridLines />
+        <HeroBadge data={site.badge} />
         <div className="hero-intro">
           <div className="grid12 hero-row">
             <div className="hero-art">

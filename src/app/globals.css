@@ -481,3 +481,7 @@ img, video, canvas { display: block; }
   .skills-marquee { padding: 16px 0; }
   .skills-marquee__item { padding: 0 18px; }
 }
+
+/* ── Hero badge (lanyard 3D) ── */
+.hero-badge-holder, .hero-badge { position: absolute; inset: 0; z-index: 5; pointer-events: none; }
+.hero-badge canvas { pointer-events: none !important; }

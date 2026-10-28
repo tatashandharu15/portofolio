@@ -47,6 +47,21 @@ export default config({
           },
           { label: "Hero" },
         ),
+        badge: fields.object(
+          {
+            photo: fields.image({
+              label: "Foto kartu ID (potret, akan dibuat hitam-putih)",
+              directory: "public/media/badge",
+              publicPath: "/media/badge/",
+            }),
+            name: fields.text({ label: "Nama di kartu (enter = baris baru)", multiline: true }),
+            role: fields.text({ label: "Peran" }),
+            idLabel: fields.text({ label: "Label ID / teks di tali" }),
+            backLabel: fields.text({ label: "Teks belakang kartu" }),
+            backUrl: fields.text({ label: "URL di belakang kartu" }),
+          },
+          { label: "Kartu ID (lanyard di hero)" },
+        ),
         work: fields.object(
           {
             label: fields.text({ label: "Label" }),
